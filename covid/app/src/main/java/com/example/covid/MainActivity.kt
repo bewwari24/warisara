@@ -14,8 +14,5 @@ class MainActivity : AppCompatActivity() {
 
         var text02: TextView = findViewById(R.id.text02)
         text02.setText("Warisara Chajandee")
-
-        val toast = Toast.makeText(applicationContext, "Complete!!!",Toast.LENGTH_LONG)
-        toast.show()
     }
 }
